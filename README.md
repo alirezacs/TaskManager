@@ -1,53 +1,51 @@
-TaskManager (Full-Stack)
+# TaskManager (Full-Stack)
 
-A full-stack task manager application built with a Node.js (Express) backend and a Next.js frontend.
+A full-stack task manager application built with a **Node.js (Express)** backend and a **Next.js** frontend.  
 This project demonstrates clean full-stack architecture, RESTful APIs, and real-world frontend–backend integration.
 
-Tech Stack
-Backend: Node.js, Express
-Frontend: Next.js (React)
-Authentication: JWT
-Database: MongoDB
+## Tech Stack
+- Backend: Node.js, Express
+- Frontend: Next.js (React)
+- Authentication: JWT
+- Database: MongoDB
 
-Features
+## Features
+- User authentication (Register / Login)
+- Create, edit, and delete tasks
+- Task status management (To Do / Done)
+- REST API integration
+- Responsive user interface
 
-User authentication (Register / Login)
+## Project Structure
+```
+/backend   - Node.js REST API
+/frontend  - Next.js web application
+```
 
-Create, edit, and delete tasks
-
-Task status management (To Do / Done)
-
-REST API integration
-
-Responsive user interface
-
-Project Structure
-/backend - Node.js REST API
-/frontend - Next.js web application
-
-Environment Variables
+## Environment Variables
 Each part of the project uses its own environment variables.
 
-Backend env example path:
-/backend/.env.example
+- Backend: `/backend/.env.example`
+- Frontend: `/frontend/.env.example`
 
-Frontend env example path:
-/frontend/.env.example
+Create `.env` files based on these examples before running the project.
 
-Create .env files based on these examples before running the project.
+## Setup
 
-Setup
-
-Backend
+### Backend
+```bash
 cd backend
 npm install
 npm run dev
+```
 
-Frontend
+### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-Screenshots
-Login screenshot: ./screenshots/login.png
-Dashboard screenshot: ./screenshots/dashboard.png
+## Screenshots
+![Login](./screenshots/login.png)
+![Dashboard](./screenshots/dashboard.png)
