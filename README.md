@@ -24,3 +24,7 @@ Full-stack task manager with **Node.js (Express)** backend and **Next.js** front
 cd backend
 npm install
 npm run dev
+
+## Screenshots
+![Login](./screenshots/login.png)
+![Dashboard](./screenshots/dashboard.png)
